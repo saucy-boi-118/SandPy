@@ -2,9 +2,14 @@
 import pygame as pg
 
 # WINDOW VARIABLES
-WINW = 500
-WINH = 500
+WINW:int = 500
+WINH:int = 500
 TITLE:str = "My Pygame Project"
+
+# GAME VARIABLES
+CELLSIZE:int = 20
+CELLW:int = WINW // CELLSIZE
+CELLH:int = WINH // CELLSIZE
 
 # COLOR VARIABLES
 RED = pg.Color(210, 100, 102)
@@ -19,4 +24,3 @@ WHITE = pg.Color(255,255,255)
 BLACK = pg.Color(0,0,0)
 
 
-# GAME VARIABLES
