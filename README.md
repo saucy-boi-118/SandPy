@@ -1,15 +1,11 @@
-### Using this repository
+# Sandpy Sand Simulation
+Super simple sand simulation made using python and pygame.
 
-Create a template using this repository, and clone it locally on your computer using 
+## Why I made this
+I started looking at different sand simulations and one problem I noticed is that some but not all are abstracted and confusing to understand with way too many features. I made this repository to strip down all that complexity into the most simple sand simulation. 
 
-```
-git clone "link_to_your_project"
-```
-Then run this command to install the requirements into your project
-```
-pip install -r requirements.txt
-```
-Heres how to create a virtual environment if needed
-```
-python -m venv venv
-```
+## Demo
+Here is a quick snapshot of the simple simulation
+![Simple_Demo](demo.png)
+
+
